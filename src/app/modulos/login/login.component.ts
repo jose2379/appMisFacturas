@@ -25,6 +25,7 @@ export class LoginComponent implements OnInit {
     const password = this.loginForm.value.password;
     console.log('envoando', email, password);
     this.logSer.logarUsuario(email, password);
+    // this.logSer.registrarUsuario(email, password);
     console.log('envoando', email, password);
   }
 
